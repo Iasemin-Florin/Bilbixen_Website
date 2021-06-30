@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://kit.fontawesome.com/e5194d04e7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Bilbixen</title>
+</head>
+<body>
+    <!--Nav bar-->
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="/index" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#cars" class="nav__link">Rent Car</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                <li class="nav__item"><a href="/register"class="nav__link">Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Hero container -->
+    <section class="hero">
+        <h1 class="section-title">Et af de bedste hjemmesider for at låne biler</h1>
+        <p class="subhead">Det er nemt &amp; hurtigt</p>
+
+        <a href="#cars" class="btn">Lån bil her</a>
+    </section>
+    <!--Car Section-->
+    <section class="car-selection" id="cars">
+        <h2 class="section__title">Click for at vælge bil klasse</h2>
+        <div class="biler">
+            <a href="smallcar.html" class="biler_item">
+                <img src="../img/Best-Cars-Under-20k-951x512.jpg" alt="" class="biler_img">
+            </a>
+            <a href="mediumcar.html" class="biler_item">
+                <img src="../img/1521592696116.jpg" alt="" class="biler_img">
+            </a>
+            <a href="largecar.html" class="biler_item">
+                <img src="../img/1967-volkswagen-type-2-bus-vw-ogi.jpg" alt="" class="biler_img">
+            </a>
+        </div>
+    </section>
+    <!--Contact Section-->
+    <footer class="footer" id="contact">
+        <a href="mailto:bilbixeninfo@gmail.com" class="footer__link">bilbixeninfo@gmail.com</a>
+    </footer>
+</body>
+<script src="../js/index.js"></script>
+</html>
